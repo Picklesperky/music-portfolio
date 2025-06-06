@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Wagglecart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Wagglecart</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="auth-page">
+        <div class="container">
+            <div class="auth-container">
+                <div class="auth-header">
+                    <h1>Login</h1>
+                    <p>Welcome back! Please enter your details.</p>
+                </div>
+                
+                <form class="auth-form" id="login-form">
+                    <div class="form-group">
+                        <label for="login-email">Email Address *</label>
+                        <input type="email" id="login-email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="login-password">Password *</label>
+                        <input type="password" id="login-password" name="password" required>
+                        <div class="password-actions">
+                            <div class="remember-me">
+                                <input type="checkbox" id="remember-me" name="remember_me">
+                                <label for="remember-me">Remember me</label>
+                            </div>
+                            <a href="#" class="forgot-password">Forgot password?</a>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn">Login</button>
+                    
+                    <div class="auth-divider">
+                        <span>or</span>
+                    </div>
+                    
+                    <div class="social-login">
+                        <button type="button" class="btn btn-outline social-btn">
+                            <i class="fab fa-google"></i> Continue with Google
+                        </button>
+                        <button type="button" class="btn btn-outline social-btn">
+                            <i class="fab fa-facebook"></i> Continue with Facebook
+                        </button>
+                    </div>
+                    
+                    <div class="auth-footer">
+                        <p>Don't have an account? <a href="register.html">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Same as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
