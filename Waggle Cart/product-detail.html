@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Name - Wagglecart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Wagglecart</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="product-detail-page">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / 
+                <a href="products.html">Products</a> / 
+                <span>Product Name</span>
+            </div>
+            
+            <div class="product-detail">
+                <div class="product-images">
+                    <div class="main-image">
+                        <img src="images/product1.jpg" alt="Product Name" id="main-product-image">
+                    </div>
+                    <div class="thumbnail-images">
+                        <img src="images/product1-thumb1.jpg" alt="Thumbnail 1">
+                        <img src="images/product1-thumb2.jpg" alt="Thumbnail 2">
+                        <img src="images/product1-thumb3.jpg" alt="Thumbnail 3">
+                    </div>
+                </div>
+                
+                <div class="product-info">
+                    <h1>Premium Wireless Headphones</h1>
+                    <div class="product-meta">
+                        <span class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="review-count">(42 reviews)</span>
+                        </span>
+                        <span class="product-stock in-stock">In Stock</span>
+                    </div>
+                    
+                    <div class="product-price">
+                        <span class="current-price">KSh 4,999</span>
+                        <span class="original-price">KSh 6,499</span>
+                        <span class="discount">23% off</span>
+                    </div>
+                    
+                    <div class="product-description">
+                        <p>Experience crystal-clear sound with our premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and comfortable over-ear design for extended listening sessions.</p>
+                        <ul>
+                            <li>Bluetooth 5.0 connectivity</li>
+                            <li>Active Noise Cancellation</li>
+                            <li>30-hour battery life</li>
+                            <li>Built-in microphone for calls</li>
+                            <li>Foldable design for portability</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="product-actions">
+                        <div class="quantity-selector">
+                            <button class="quantity-btn minus">-</button>
+                            <input type="number" value="1" min="1" class="quantity-input">
+                            <button class="quantity-btn plus">+</button>
+                        </div>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                        <button class="btn btn-outline">Buy Now</button>
+                    </div>
+                    
+                    <div class="product-meta-details">
+                        <div class="meta-item">
+                            <span class="meta-label">SKU:</span>
+                            <span class="meta-value">WH-2023-BLK</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Category:</span>
+                            <span class="meta-value">Electronics, Audio</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Tags:</span>
+                            <span class="meta-value">Headphones, Wireless, Audio</span>
+                        </div>
+                    </div>
+                    
+                    <div class="share-buttons">
+                        <span>Share:</span>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-tabs">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="description">Description</button>
+                    <button class="tab-btn" data-tab="specifications">Specifications</button>
+                    <button class="tab-btn" data-tab="reviews">Reviews</button>
+                </div>
+                
+                <div class="tabs-content">
+                    <div class="tab-pane active" id="description">
+                        <h3>Product Description</h3>
+                        <p>Our Premium Wireless Headphones deliver exceptional sound quality with deep bass and crisp highs. The active noise cancellation feature blocks out ambient noise, allowing you to immerse yourself in your music or focus on your work.</p>
+                        <p>The ergonomic design ensures comfort even during extended use, with soft ear cushions and an adjustable headband. The foldable design makes them easy to carry in your bag, and the included carrying case provides extra protection.</p>
+                    </div>
+                    
+                    <div class="tab-pane" id="specifications">
+                        <h3>Technical Specifications</h3>
+                        <table>
+                            <tr>
+                                <th>Brand</th>
+                                <td>AudioPro</td>
+                            </tr>
+                            <tr>
+                                <th>Model</th>
+                                <td>WH-2023</td>
+                            </tr>
+                            <tr>
+                                <th>Connectivity</th>
+                                <td>Bluetooth 5.0, 3.5mm AUX</td>
+                            </tr>
+                            <tr>
+                                <th>Battery Life</th>
+                                <td>Up to 30 hours (ANC off), 22 hours (ANC on)</td>
+                            </tr>
+                            <tr>
+                                <th>Charging Time</th>
+                                <td>2 hours (full charge)</td>
+                            </tr>
+                            <tr>
+                                <th>Weight</th>
+                                <td>254g</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="tab-pane" id="reviews">
+                        <h3>Customer Reviews</h3>
+                        <div class="review-summary">
+                            <div class="average-rating">
+                                <span class="rating-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="average">4.5 out of 5</span>
+                            </div>
+                            <div class="rating-bars">
+                                <div class="rating-bar">
+                                    <span class="stars">5 <i class="fas fa-star"></i></span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 70%;"></div>
+                                    </div>
+                                    <span class="percentage">70%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span class="stars">4 <i class="fas fa-star"></i></span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 20%;"></div>
+                                    </div>
+                                    <span class="percentage">20%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span class="stars">3 <i class="fas fa-star"></i></span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 5%;"></div>
+                                    </div>
+                                    <span class="percentage">5%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span class="stars">2 <i class="fas fa-star"></i></span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 3%;"></div>
+                                    </div>
+                                    <span class="percentage">3%</span>
+                                </div>
+                                <div class="rating-bar">
+                                    <span class="stars">1 <i class="fas fa-star"></i></span>
+                                    <div class="bar-container">
+                                        <div class="bar" style="width: 2%;"></div>
+                                    </div>
+                                    <span class="percentage">2%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="reviews-list">
+                            <div class="review">
+                                <div class="review-header">
+                                    <span class="reviewer-name">John M.</span>
+                                    <span class="review-date">October 15, 2023</span>
+                                    <span class="review-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="review-title">Excellent sound quality</div>
+                                <div class="review-content">
+                                    <p>These headphones are amazing! The sound quality is exceptional and the noise cancellation works perfectly on my commute. Battery life is as advertised. Highly recommended!</p>
+                                </div>
+                            </div>
+                            
+                            <div class="review">
+                                <div class="review-header">
+                                    <span class="reviewer-name">Sarah K.</span>
+                                    <span class="review-date">September 28, 2023</span>
+                                    <span class="review-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="review-title">Great but could be more comfortable</div>
+                                <div class="review-content">
+                                    <p>Sound quality is fantastic and the battery lasts a long time. My only complaint is that after several hours of continuous use, they start to feel a bit heavy on my head.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="add-review">
+                            <h4>Add Your Review</h4>
+                            <form>
+                                <div class="form-group">
+                                    <label for="review-rating">Your Rating</label>
+                                    <div class="rating-input">
+                                        <i class="far fa-star" data-rating="1"></i>
+                                        <i class="far fa-star" data-rating="2"></i>
+                                        <i class="far fa-star" data-rating="3"></i>
+                                        <i class="far fa-star" data-rating="4"></i>
+                                        <i class="far fa-star" data-rating="5"></i>
+                                        <input type="hidden" id="review-rating" name="rating" value="0">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="review-title">Review Title</label>
+                                    <input type="text" id="review-title" name="title" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="review-text">Your Review</label>
+                                    <textarea id="review-text" name="review" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn">Submit Review</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="related-products">
+                <h3>You May Also Like</h3>
+                <div class="products-grid">
+                    <!-- Related products will be loaded via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Same as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+cart.html (Shopping Cart)
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Shopping Cart - Wagglecart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Wagglecart</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="cart-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Your Shopping Cart</h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / <span>Cart</span>
+                </div>
+            </div>
+            
+            <div class="cart-container">
+                <div class="cart-items">
+                    <div class="cart-header">
+                        <div class="header-item product">Product</div>
+                        <div class="header-item price">Price</div>
+                        <div class="header-item quantity">Quantity</div>
+                        <div class="header-item subtotal">Subtotal</div>
+                        <div class="header-item remove">Remove</div>
+                    </div>
+                    
+                    <div class="cart-item">
+                        <div class="item-details product">
+                            <img src="images/product1-thumb1.jpg" alt="Product Name">
+                            <div class="product-info">
+                                <h3>Premium Wireless Headphones</h3>
+                                <p>Color: Black</p>
+                                <p>SKU: WH-2023-BLK</p>
+                            </div>
+                        </div>
+                        <div class="item-details price">
+                            <span class="current-price">KSh 4,999</span>
+                            <span class="original-price">KSh 6,499</span>
+                        </div>
+                        <div class="item-details quantity">
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" value="1" min="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                        </div>
+                        <div class="item-details subtotal">
+                            KSh 4,999
+                        </div>
+                        <div class="item-details remove">
+                            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="cart-item">
+                        <div class="item-details product">
+                            <img src="images/product2-thumb1.jpg" alt="Product Name">
+                            <div class="product-info">
+                                <h3>Smart Watch Pro</h3>
+                                <p>Color: Silver</p>
+                                <p>SKU: SW-2023-SLV</p>
+                            </div>
+                        </div>
+                        <div class="item-details price">
+                            <span class="current-price">KSh 8,499</span>
+                        </div>
+                        <div class="item-details quantity">
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" value="2" min="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                        </div>
+                        <div class="item-details subtotal">
+                            KSh 16,998
+                        </div>
+                        <div class="item-details remove">
+                            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </div>
+                    
+                    <div class="cart-actions">
+                        <button class="btn btn-outline continue-shopping">
+                            <i class="fas fa-arrow-left"></i> Continue Shopping
+                        </button>
+                        <button class="btn btn-outline update-cart">Update Cart</button>
+                    </div>
+                </div>
+                
+                <div class="cart-summary">
+                    <h3>Cart Summary</h3>
+                    <div class="summary-details">
+                        <div class="summary-row">
+                            <span>Subtotal</span>
+                            <span>KSh 21,997</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Delivery Fee</span>
+                            <span>KSh 250</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Discount</span>
+                            <span>-KSh 1,500</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total</span>
+                            <span>KSh 20,747</span>
+                        </div>
+                    </div>
+                    
+                    <div class="coupon-code">
+                        <h4>Apply Coupon</h4>
+                        <div class="coupon-input">
+                            <input type="text" placeholder="Enter coupon code">
+                            <button class="btn">Apply</button>
+                        </div>
+                    </div>
+                    
+                    <button class="btn checkout-btn">Proceed to Checkout</button>
+                    
+                    <div class="payment-methods">
+                        <h4>We Accept:</h4>
+                        <div class="payment-icons">
+                            <img src="images/mpesa-logo.png" alt="M-Pesa">
+                            <img src="images/visa-logo.png" alt="Visa">
+                            <img src="images/mastercard-logo.png" alt="Mastercard">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="recently-viewed">
+                <h3>Recently Viewed</h3>
+                <div class="products-grid">
+                    <!-- Recently viewed products will be loaded via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Same as index.html -->
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>
+checkout.html (Checkout Page)
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Wagglecart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Wagglecart</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count">2</span></a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="checkout-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Checkout</h1>
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a> / 
+                    <a href="cart.html">Cart</a> / 
+                    <span>Checkout</span>
+                </div>
+            </div>
+            
+            <div class="checkout-container">
+                <div class="checkout-steps">
+                    <div class="step active" data-step="1">
+                        <span class="step-number">1</span>
+                        <span class="step-title">Shipping</span>
+                    </div>
+                    <div class="step" data-step="2">
+                        <span class="step-number">2</span>
+                        <span class="step-title">Payment</span>
+                    </div>
+                    <div class="step" data-step="3">
+                        <span class="step-number">3</span>
+                        <span class="step-title">Confirmation</span>
+                    </div>
+                </div>
+                
+                <form class="checkout-form">
+                    <div class="form-section active" id="shipping-section">
+                        <h2>Shipping Information</h2>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first-name">First Name *</label>
+                                <input type="text" id="first-name" name="first_name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Last Name *</label>
+                                <input type="text" id="last-name" name="last_name" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <small>We'll use this to contact you about your order</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Street Address *</label>
+                            <input type="text" id="address" name="address" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address2">Apartment, Suite, etc. (Optional)</label>
+                            <input type="text" id="address2" name="address2">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="city">City *</label>
+                                <input type="text" id="city" name="city" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="county">County *</label>
+                                <select id="county" name="county" required>
+                                    <option value="">Select County</option>
+                                    <option value="nairobi">Nairobi</option>
+                                    <option value="mombasa">Mombasa</option>
+                                    <option value="kisumu">Kisumu</option>
+                                    <option value="nakuru">Nakuru</option>
+                                    <option value="eldoret">Eldoret</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="delivery-notes">Delivery Notes (Optional)</label>
+                            <textarea id="delivery-notes" name="delivery_notes" rows="3"></textarea>
+                        </div>
+                        
+                        <div class="shipping-methods">
+                            <h3>Shipping Method</h3>
+                            <div class="method-option">
+                                <input type="radio" id="standard-shipping" name="shipping_method" value="standard" checked>
+                                <label for="standard-shipping">
+                                    <span class="method-name">Standard Delivery</span>
+                                    <span class="method-details">3-5 business days</span>
+                                    <span class="method-price">KSh 250</span>
+                                </label>
+                            </div>
+                            <div class="method-option">
+                                <input type="radio" id="express-shipping" name="shipping_method" value="express">
+                                <label for="express-shipping">
+                                    <span class="method-name">Express Delivery</span>
+                                    <span class="method-details">1-2 business days</span>
+                                    <span class="method-price">KSh 500</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-outline back-to-cart">Back to Cart</button>
+                            <button type="button" class="btn next-step" data-next="payment">Continue to Payment</button>
+                        </div>
+                    </div>
+                    
+                    <div class="form-section" id="payment-section">
+                        <h2>Payment Information</h2>
+                        
+                        <div class="order-summary">
+                            <h3>Order Summary</h3>
+                            <div class="summary-items">
+                                <div class="summary-item">
+                                    <span>Premium Wireless Headphones × 1</span>
+                                    <span>KSh 4,999</span>
+                                </div>
+                                <div class="summary-item">
+                                    <span>Smart Watch Pro × 2</span>
+                                    <span>KSh 16,998</span>
+                                </div>
+                                <div class="summary-item">
+                                    <span>Subtotal</span>
+                                    <span>KSh 21,997</span>
+                                </div>
+                                <div class="summary-item">
+                                    <span>Shipping</span>
+                                    <span>KSh 250</span>
+                                </div>
+                                <div class="summary-item">
+                                    <span>Discount</span>
+                                    <span>-KSh 1,500</span>
+                                </div>
+                                <div class="summary-item total">
+                                    <span>Total</span>
+                                    <span>KSh 20,747</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="payment-methods">
+                            <h3>Select Payment Method</h3>
+                            
+                            <div class="payment-option">
+                                <input type="radio" id="mpesa-payment" name="payment_method" value="mpesa" checked>
+                                <label for="mpesa-payment">
+                                    <img src="images/mpesa-logo.png" alt="M-Pesa">
+                                    <span>M-Pesa</span>
+                                </label>
+                                <div class="payment-details mpesa-details">
+                                    <p>You will receive an M-Pesa push notification to complete payment</p>
+                                    <div class="form-group">
+                                        <label for="mpesa-phone">M-Pesa Phone Number *</label>
+                                        <input type="tel" id="mpesa-phone" name="mpesa_phone" placeholder="e.g. 254712345678">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="payment-option">
+                                <input type="radio" id="card-payment" name="payment_method" value="card">
+                                <label for="card-payment">
+                                    <img src="images/credit-card-icon.png" alt="Credit Card">
+                                    <span>Credit/Debit Card</span>
+                                </label>
+                                <div class="payment-details card-details">
+                                    <div class="form-group">
+                                        <label for="card-number">Card Number *</label>
+                                        <input type="text" id="card-number" name="card_number" placeholder="1234 5678 9012 3456">
+                                    </div>
+                                    
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="card-expiry">Expiry Date *</label>
+                                            <input type="text" id="card-expiry" name="card_expiry" placeholder="MM/YY">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="card-cvv">CVV *</label>
+                                            <input type="text" id="card-cvv" name="card_cvv" placeholder="123">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="card-name">Name on Card *</label>
+                                        <input type="text" id="card-name" name="card_name">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="payment-option">
+                                <input type="radio" id="cash-on-delivery" name="payment_method" value="cash">
+                                <label for="cash-on-delivery">
+                                    <img src="images/cash-icon.png" alt="Cash on Delivery">
+                                    <span>Cash on Delivery</span>
+                                </label>
+                                <div class="payment-details cash-details">
+                                    <p>Pay with cash when your order is delivered</p>
+                                    <p class="note">Note: An additional KSh 100 fee applies for cash on delivery orders</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-outline prev-step" data-prev="shipping">Back to Shipping</button>
+                            <button type="button" class="btn place-order">Place Order</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Same as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/payment.js"></script>
+</body>
+</html>

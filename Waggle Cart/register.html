@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Wagglecart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Wagglecart</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="auth-page">
+        <div class="container">
+            <div class="auth-container">
+                <div class="auth-header">
+                    <h1>Create Account</h1>
+                    <p>Join Wagglecart today for a better shopping experience</p>
+                </div>
+                
+                <form class="auth-form" id="register-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="first-name">First Name *</label>
+                            <input type="text" id="first-name" name="first_name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name *</label>
+                            <input type="text" id="last-name" name="last_name" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="register-email">Email Address *</label>
+                        <input type="email" id="register-email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="register-phone">Phone Number *</label>
+                        <input type="tel" id="register-phone" name="phone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="register-password">Password *</label>
+                        <input type="password" id="register-password" name="password" required>
+                        <div class="password-strength">
+                            <span class="strength-text">Password Strength: <span id="strength-value">Weak</span></span>
+                            <div class="strength-meter">
+                                <span class="strength-bar weak"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password *</label>
+                        <input type="password" id="confirm-password" name="confirm_password" required>
+                    </div>
+                    
+                    <div class="form-group terms">
+                        <input type="checkbox" id="accept-terms" name="accept_terms" required>
+                        <label for="accept-terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                    </div>
+                    
+                    <button type="submit" class="btn">Create Account</button>
+                    
+                    <div class="auth-divider">
+                        <span>or</span>
+                    </div>
+                    
+                    <div class="social-login">
+                        <button type="button" class="btn btn-outline social-btn">
+                            <i class="fab fa-google"></i> Continue with Google
+                        </button>
+                        <button type="button" class="btn btn-outline social-btn">
+                            <i class="fab fa-facebook"></i> Continue with Facebook
+                        </button>
+                    </div>
+                    
+                    <div class="auth-footer">
+                        <p>Already have an account? <a href="login.html">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Same as index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
